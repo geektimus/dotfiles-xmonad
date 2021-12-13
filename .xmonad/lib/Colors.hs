@@ -1,0 +1,1 @@
+/home/geektimus/.cache/wal/colors.hs

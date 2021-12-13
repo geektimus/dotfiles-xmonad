@@ -1,0 +1,50 @@
+{
+    "editor.fontFamily": "'Iosevka Term','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.colorTheme": "Material Theme Lighter",
+    "redhat.telemetry.enabled": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    // Enable/disable default YAML formatter (requires restart)
+    "yaml.format.enable": true,
+    "explorer.sortOrder": "mixed",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open"
+}
