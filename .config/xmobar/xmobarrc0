@@ -4,11 +4,11 @@
 
 Config { font    = "xft:Iosevka Term:weight=bold:pixelsize=12:antialias=true:hinting=true"
        , additionalFonts = [ "xft:Mononoki Nerd Font:pixelsize=12:antialias=true:hinting=true"
-                           , "xft:Font Awesome 5 Free Solid:pixelsize=12"
-                           , "xft:Font Awesome 5 Brands:pixelsize=12"
+                           , "xft:Font Awesome 6 Free Solid:pixelsize=12"
+                           , "xft:Font Awesome 6 Brands Regular:pixelsize=12"
                            ]
-       , bgColor = "#151018"
-       , fgColor = "#e3e2e9"
+       , bgColor = "#301a1f"
+       , fgColor = "#f2e2ea"
        , position = TopSize L 100 24
        , lowerOnStart = True
        , hideOnStart = False
@@ -47,6 +47,6 @@ Config { font    = "xft:Iosevka Term:weight=bold:pixelsize=12:antialias=true:hin
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "  <icon=haskell_20.xpm/>   <fc=#e3e2e9>|</fc> %UnsafeStdinReader% }{ <box type=Bottom width=2 mb=2 color=#e3e2e9><fc=#e3e2e9>%penguin%  %kernel%</fc></box>    <box type=Bottom width=2 mb=2 color=#C7B8CA><fc=#C7B8CA><action=`alacritty -e htop`>%cpu%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#C2BBCD><fc=#C2BBCD><action=`alacritty -e htop`>%memory%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#e3e2e9><fc=#e3e2e9>%disku%</fc></box>  <box type=Bottom width=2 mb=2 color=#7B84B4><fc=#7B84B4>%bell%  <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box>   <box type=Bottom width=2 mb=2 color=#A098B3><fc=#A098B3>%baticon%  %battery%</fc></box>    <box type=Bottom width=2 mb=2 color=#e3e2e9><fc=#e3e2e9><action=`emacsclient -c -a 'emacs' --eval '(doom/window-maximize-buffer(dt/year-calendar))'`>%date%</action></fc></box> %trayerpad%"
+       , template = "  <icon=haskell_20.xpm/>   <fc=#f2e2ea>|</fc> %UnsafeStdinReader% }{ <box type=Bottom width=2 mb=2 color=#f2e2ea><fc=#f2e2ea>%penguin%  %kernel%</fc></box>    <box type=Bottom width=2 mb=2 color=#DED6DA><fc=#DED6DA><action=`alacritty -e htop`>%cpu%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#F2D2D6><fc=#F2D2D6><action=`alacritty -e htop`>%memory%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#f2e2ea><fc=#f2e2ea>%disku%</fc></box>  <box type=Bottom width=2 mb=2 color=#B7B5C4><fc=#B7B5C4>%bell%  <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box>   <box type=Bottom width=2 mb=2 color=#A5AEDA><fc=#A5AEDA>%baticon%  %battery%</fc></box>    <box type=Bottom width=2 mb=2 color=#f2e2ea><fc=#f2e2ea><action=`emacsclient -c -a 'emacs' --eval '(doom/window-maximize-buffer(dt/year-calendar))'`>%date%</action></fc></box> %trayerpad%"
        
        }
